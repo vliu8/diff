@@ -1,10 +1,104 @@
 {
     "elements": [
         {
-            "assetUrn": "urn:li:digitalmediaAsset:C550EAQH3RMT-22h9SQ",
+            "assetUrn": "urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg",
             "MediaArtifactFileIdentifiers": [
                 {
-                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C550EAQH3RMT-22h9SQ,urn:li:digitalmediaMediaArtifactClass:rightRail-logo-shrink_200_200)",
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_1280)",
+                    "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
+                    "authorizationMethod": "PUBLIC",
+                    "data": {
+                        "com.linkedin.digitalmedia.mediaartifact.StillImage": {
+                            "orientation": "TopLeft",
+                            "scale": "UNCHANGED",
+                            "mediaType": "image/jpeg",
+                            "displaySize": {
+                                "width": 690.0,
+                                "uom": "PX",
+                                "height": 690.0
+                            },
+                            "displayAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "storageSize": {
+                                "width": 690,
+                                "height": 690
+                            },
+                            "storageAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "rawMetadataTags": [],
+                            "rawCodecSpec": {
+                                "name": "jpeg",
+                                "type": "image"
+                            }
+                        }
+                    },
+                    "identifiers": [
+                        {
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-shrink_1280/0/1649248937089?e=1649340000&v=beta&t=qN6Wj8azYldiJGCbhos8L7bgoVT-L9VDSzjnROZdxLo",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_1280,0)",
+                            "size": 21713,
+                            "index": 0,
+                            "mediaType": "image/jpeg",
+                            "identifierType": "EXTERNAL_URL",
+                            "identifierExpiresInSeconds": 1649340000
+                        }
+                    ]
+                },
+                {
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_480)",
+                    "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
+                    "authorizationMethod": "PUBLIC",
+                    "data": {
+                        "com.linkedin.digitalmedia.mediaartifact.StillImage": {
+                            "orientation": "TopLeft",
+                            "scale": "DOWN",
+                            "mediaType": "image/jpeg",
+                            "displaySize": {
+                                "width": 480.0,
+                                "uom": "PX",
+                                "height": 480.0
+                            },
+                            "displayAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "storageSize": {
+                                "width": 480,
+                                "height": 480
+                            },
+                            "storageAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "rawMetadataTags": [],
+                            "rawCodecSpec": {
+                                "name": "jpeg",
+                                "type": "image"
+                            }
+                        }
+                    },
+                    "identifiers": [
+                        {
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-shrink_480/0/1649248937089?e=1649340000&v=beta&t=E9UFL-6LrhLaLqRnO0BLg0Y-tXoMLOZoDsFvBeurFBI",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_480,0)",
+                            "size": 13094,
+                            "index": 0,
+                            "mediaType": "image/jpeg",
+                            "identifierType": "EXTERNAL_URL",
+                            "identifierExpiresInSeconds": 1649340000
+                        }
+                    ]
+                },
+                {
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-pad_200_200)",
                     "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
                     "authorizationMethod": "PUBLIC",
                     "data": {
@@ -40,8 +134,8 @@
                     },
                     "identifiers": [
                         {
-                            "identifier": "https://media.licdn-ei.com/dms/image/C550EAQH3RMT-22h9SQ/rightRail-logo-shrink_200_200/0/1649252440219?e=1649340000&v=beta&t=U2yypJuuCS7ahSu_pcB21Ohgg0VsKapcGPktVTgZ8LQ",
-                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C550EAQH3RMT-22h9SQ,urn:li:digitalmediaMediaArtifactClass:rightRail-logo-shrink_200_200,0)",
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-pad_200_200/0/1649249744389?e=1649340000&v=beta&t=if5psAB8MYmPE77q60P7ayF01KElArbd5oehGoxA1vA",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-pad_200_200,0)",
                             "size": 5662,
                             "index": 0,
                             "mediaType": "image/jpeg",
@@ -51,7 +145,148 @@
                     ]
                 },
                 {
-                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C550EAQH3RMT-22h9SQ,urn:li:digitalmediaMediaArtifactClass:rightRail-logo-shrink_100_100)",
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_160)",
+                    "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
+                    "authorizationMethod": "PUBLIC",
+                    "data": {
+                        "com.linkedin.digitalmedia.mediaartifact.StillImage": {
+                            "orientation": "TopLeft",
+                            "scale": "DOWN",
+                            "mediaType": "image/jpeg",
+                            "displaySize": {
+                                "width": 160.0,
+                                "uom": "PX",
+                                "height": 160.0
+                            },
+                            "displayAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "storageSize": {
+                                "width": 160,
+                                "height": 160
+                            },
+                            "storageAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "rawMetadataTags": [],
+                            "rawCodecSpec": {
+                                "name": "jpeg",
+                                "type": "image"
+                            }
+                        }
+                    },
+                    "identifiers": [
+                        {
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-shrink_160/0/1649248937089?e=1649340000&v=beta&t=mW8Zz364FvVQNvsuQHagqk9-XvZQbT5sRZUfPAwfqaE",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_160,0)",
+                            "size": 3501,
+                            "index": 0,
+                            "mediaType": "image/jpeg",
+                            "identifierType": "EXTERNAL_URL",
+                            "identifierExpiresInSeconds": 1649340000
+                        }
+                    ]
+                },
+                {
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_20)",
+                    "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
+                    "authorizationMethod": "PUBLIC",
+                    "data": {
+                        "com.linkedin.digitalmedia.mediaartifact.StillImage": {
+                            "orientation": "TopLeft",
+                            "scale": "DOWN",
+                            "mediaType": "image/jpeg",
+                            "displaySize": {
+                                "width": 20.0,
+                                "uom": "PX",
+                                "height": 20.0
+                            },
+                            "displayAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "storageSize": {
+                                "width": 20,
+                                "height": 20
+                            },
+                            "storageAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "rawMetadataTags": [],
+                            "rawCodecSpec": {
+                                "name": "jpeg",
+                                "type": "image"
+                            }
+                        }
+                    },
+                    "identifiers": [
+                        {
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-shrink_20/0/1649248937089?e=1649340000&v=beta&t=PZkRdb8_G4Fogp0admAVXiyx1PLPtwh9OiyDOXG7u2M",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_20,0)",
+                            "size": 680,
+                            "index": 0,
+                            "mediaType": "image/jpeg",
+                            "identifierType": "EXTERNAL_URL",
+                            "identifierExpiresInSeconds": 1649340000
+                        }
+                    ]
+                },
+                {
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_800)",
+                    "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
+                    "authorizationMethod": "PUBLIC",
+                    "data": {
+                        "com.linkedin.digitalmedia.mediaartifact.StillImage": {
+                            "orientation": "TopLeft",
+                            "scale": "UNCHANGED",
+                            "mediaType": "image/jpeg",
+                            "displaySize": {
+                                "width": 690.0,
+                                "uom": "PX",
+                                "height": 690.0
+                            },
+                            "displayAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "storageSize": {
+                                "width": 690,
+                                "height": 690
+                            },
+                            "storageAspectRatio": {
+                                "widthAspect": 1.0,
+                                "heightAspect": 1.0,
+                                "formatted": "1.00:1.00"
+                            },
+                            "rawMetadataTags": [],
+                            "rawCodecSpec": {
+                                "name": "jpeg",
+                                "type": "image"
+                            }
+                        }
+                    },
+                    "identifiers": [
+                        {
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-shrink_800/0/1649248937089?e=1649340000&v=beta&t=VmSIbyGhkC1VNKTrTKEUdYEqSLvNtAlQWsmrEVzd_ds",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-shrink_800,0)",
+                            "size": 21713,
+                            "index": 0,
+                            "mediaType": "image/jpeg",
+                            "identifierType": "EXTERNAL_URL",
+                            "identifierExpiresInSeconds": 1649340000
+                        }
+                    ]
+                },
+                {
+                    "artifact": "urn:li:digitalmediaMediaArtifact:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-pad_100_100)",
                     "pluggableServiceFactory": "com.linkedin.vector.assetmanager.logic.pluggableservice.uploaddownloadservice.UploadDownloadServiceFactory",
                     "authorizationMethod": "PUBLIC",
                     "data": {
@@ -87,8 +322,8 @@
                     },
                     "identifiers": [
                         {
-                            "identifier": "https://media.licdn-ei.com/dms/image/C550EAQH3RMT-22h9SQ/rightRail-logo-shrink_100_100/0/1649252440219?e=1649340000&v=beta&t=RQVaf7012AJgvobpYeAgZpsVrZo3d09BS4vQ9IKSPK4",
-                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C550EAQH3RMT-22h9SQ,urn:li:digitalmediaMediaArtifactClass:rightRail-logo-shrink_100_100,0)",
+                            "identifier": "https://media.licdn-ei.com/dms/image/C5510AQHLgtqCBfy9eg/image-pad_100_100/0/1649249744389?e=1649340000&v=beta&t=CjA-YzuRYZnI86l-KIpl2vyxFC5u4OErSTVBc_c_Dq4",
+                            "file": "urn:li:digitalmediaFile:(urn:li:digitalmediaAsset:C5510AQHLgtqCBfy9eg,urn:li:digitalmediaMediaArtifactClass:image-pad_100_100,0)",
                             "size": 2381,
                             "index": 0,
                             "mediaType": "image/jpeg",
